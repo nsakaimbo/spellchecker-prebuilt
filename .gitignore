@@ -1,0 +1,11 @@
+.DS_Store
+
+# Compiled binary addons
+build/*
+!vendor/hunspell/src/build/
+prebuilds/
+
+# Dependency directory
+node_modules/
+
+/.vscode
