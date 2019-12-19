@@ -53,7 +53,7 @@
     "url": "git@github.com:nsakaimbo/spellchecker-prebuilt.git"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "prebuild-install -t 1.7.16 -r electron || node-gyp rebuild",
     "test": "jasmine-focused --captureExceptions --coffee spec/"
   },
   "version": "4.0.6"
